@@ -1,8 +1,9 @@
 package com.example.connect4;
 
+import java.io.Serializable;
 import java.util.Arrays;
 
-public class Board {
+public class Board implements Serializable {
     private final int rows; // Sorok száma
     private final int cols; // Oszlopok száma
     private final char[][] grid; // A tábla mátrixa
